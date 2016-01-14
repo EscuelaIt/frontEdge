@@ -1,0 +1,31 @@
+<html lang="es">
+
+<head>
+  <title>Hola Mundo Front Edge</title>
+  <meta name="description" content="Fola mundo con tecnolgías tendencia en 2016 ">
+  <meta name="keywords" content="ES6, JSPM, AngularJS1.5 , Material Design">
+  <meta name="author" content="albertobasalo@agorabinaria.com">
+  <meta charset="utf-8" />
+  <!--jspm motor de carga de systemJS-->
+  <script src="jspm_packages/system.js"></script>
+  <!--jspm fichero de configuración y dependencias-->
+  <script src="config.js"></script>
+  <script>
+    //nuestro programa
+		System.import('main.js');
+  </script>
+</head>
+
+<body>
+  <div ng-hide="true">Esperando la carga de la aplicación...</div>
+  <h2 class="md-display-1">Hola Mundo</h2>
+  <p class="md-body-2">Uno más uno son {{ 1 + 1 }}</p>
+
+  <md-input-container>
+    <label class="md-caption">¿Cómo te llamas?</label>
+    <input type="text" ng-model="tuNombre" md-autofocus required md-maxlength="10">
+  </md-input-container>
+  <div class="md-display-2">Hola {{ tuNombre }}, bienvenido al Front Edge !!!</div>
+</body>
+
+</html>

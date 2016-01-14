@@ -1,0 +1,24 @@
+{
+  "name": "hello-front-edge",
+  "version": "1.0.0",
+  "description": "Hola mundo usando ES6, JSPM, Angular1.5 y MAterialDesign",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "albertobasalo@agorabinaria.com",
+  "license": "ISC",
+  "jspm": {
+    "dependencies": {
+      "angular": "npm:angular@1.5.0-rc.0",
+      "angular-animate": "npm:angular-animate@1.5.0-rc.0",
+      "angular-aria": "npm:angular-aria@1.5.0-rc.0",
+      "angular-material": "npm:angular-material@^1.0.1"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}
