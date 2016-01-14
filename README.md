@@ -1,4 +1,4 @@
-Material del curos sobre tecnologías que serán **tendencia en el desarrollo front end** durante este 2016.
+Material del [curso](http://escuela.it/cursos/front-edge-desarrollo-web-al-limite/) sobre tecnologías que serán **tendencia en el desarrollo front end** durante este 2016.
 
 * JavaScript: **[ES6](http://es6-features.org/#Constants)**.
 
