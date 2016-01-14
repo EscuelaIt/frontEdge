@@ -1,6 +1,6 @@
-Selección de tecnologías que serán **tendencia en el desarrollo front end** durante este 2016.
+Material del curos sobre tecnologías que serán **tendencia en el desarrollo front end** durante este 2016.
 
-* JavaScript: **[ES6](http://es6-features.org/#Constants)**. Tras siete años desde la anterior gran revisión, el éxito y la popularidad de JS no podía esperar más. Y tu tampoco debes esperar más para conocerlo y usarlo.
+* JavaScript: **[ES6](http://es6-features.org/#Constants)**.
 
 * Module Manager: **[JSPM](http://jspm.io/)**
 
@@ -11,4 +11,4 @@ Selección de tecnologías que serán **tendencia en el desarrollo front end** d
 
 [Presentación frontEdge](https://docs.google.com/presentation/d/1ah0w0oW-urVn3rQbX5su2ZydFSyxyw4TIaeq2fCdR1Y/edit?usp=sharing)
 
-[video charla presentación frontEdge](https://www.youtube.com/watch?v=vJZb_rs2vvU)
+[Video charla presentación frontEdge](https://www.youtube.com/watch?v=vJZb_rs2vvU)
