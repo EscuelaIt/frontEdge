@@ -16,13 +16,23 @@ create index.html
 
 jspm install angular=npm:angular@1.5.0-rc.0
 
-bottstrap app
+ng-App
+module
 
+bootstrap app
+
+
+Material
 jspm install angular-animate=npm:angular-animate@1.5.0-rc.0
 jspm install angular-aria=npm:angular-aria@1.5.0-rc.0
 
+hojas de estilo
+iconos https://design.google.com/icons/
+
 jspm install angular-material=npm:angular-material@^1.0.2
 
+
+flex
 
 
 ```

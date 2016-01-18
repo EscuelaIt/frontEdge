@@ -28,7 +28,7 @@ function staticServer(req, res) {
 }
 
 function fileServer(res, pathname) {
-	if(pathname==="/favicon.ico") res.send();
+	//if(pathname==="/favicon.ico") res.send();
   if(pathname==="/") pathname = "/index.html";
 	var filename = path.join(p.cwd(), pathname);
 	var extension = path.extname(filename).split(".")[1];
