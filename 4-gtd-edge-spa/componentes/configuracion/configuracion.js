@@ -5,9 +5,19 @@ const raiz ="./componentes/"
 const nombreComponente = 'configuracion'
 
 
+
+let configurarEstado = ($stateProvider) => {
+    $stateProvider
+        .state(nombreComponente, {
+            url: `/${nombreComponente}`,
+            template: `<${nombreComponente}></${nombreComponente}>`
+        });
+}
+
 angular.module(nombreComponente, ['ngMaterial'])
     .component(nombreComponente, {
         templateUrl: `${raiz}${nombreComponente}/${nombreComponente}.html`
     })
+    .config(configurarEstado)
 
 export default nombreComponente
