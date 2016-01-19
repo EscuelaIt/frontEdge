@@ -43,9 +43,9 @@ System.config({
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
     "npm:angular-material@1.0.2": {
-      "angular": "github:angular/bower-angular@1.4.8",
-      "angular-animate": "github:angular/bower-angular-animate@1.4.8",
-      "angular-aria": "github:angular/bower-angular-aria@1.4.8",
+      //"angular": "github:angular/bower-angular@1.4.8",
+      //"angular-animate": "github:angular/bower-angular-animate@1.4.8",
+      //"angular-aria": "github:angular/bower-angular-aria@1.4.8",
       "css": "github:systemjs/plugin-css@0.1.20"
     },
     "npm:angular@1.5.0-rc.0": {
