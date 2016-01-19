@@ -1,0 +1,106 @@
+<html lang="es">
+
+<head>
+  <title>GTD Edge seed</title>
+  <meta name="description" content="Semilla para la aplicación Getting Thins Done ">
+  <meta name="keywords" content="ES6, JSPM, AngularJS1.5 , Material Design">
+  <meta name="author" content="albertobasalo@agorabinaria.com">
+  <meta charset="utf-8" />
+  <!--jspm motor de carga de systemJS-->
+  <script src="jspm_packages/system.js"></script>
+  <!--jspm fichero de configuración y dependencias-->
+  <script src="config.js"></script>
+  <script>
+    //nuestro programa
+		System.import('main.js');
+  </script>
+  <link href="jspm_packages/npm/angular-material@1.0.2/angular-material.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body layout="column" layout-fill>
+  <toolbar></toolbar>
+  <md-content layout="row" flex>
+    <nav>
+      <md-sidenav class="md-sidenav-left" md-is-locked-open="true">
+        <md-content layout="column">
+          <md-button>
+            <div layout="row" flex>
+              <md-icon flex="15" class="md-primary">inbox</md-icon>
+              <span flex style="text-align:left">Entrada</span>
+            </div>
+          </md-button>
+          <md-button>
+            <div layout="row" flex>
+              <md-icon flex="15">transform</md-icon>
+              <span flex style="text-align:left">Navegación</span>
+            </div>
+          </md-button>
+          <md-divider></md-divider>
+          <md-button>
+            <div layout="row" flex>
+              <md-icon flex="15">settings</md-icon>
+              <span flex style="text-align:left">Configuración</span>
+            </div>
+          </md-button>
+        </md-content>
+      </md-sidenav>
+    </nav>
+    <section layout="column" flex>
+      <md-list >
+        <article flex="80" >
+          <md-list-item  >
+            <md-icon>done</md-icon>
+            <p> Texto de una cosa hecha</p>
+            <md-switch class="md-secondary" ></md-switch>
+          </md-list-item>
+        </article>
+        <article flex="80" >
+          <md-list-item  >
+            <md-icon>alarm</md-icon>
+            <p> Texto de una cosa pendiente</p>
+            <md-switch class="md-secondary" ></md-switch>
+          </md-list-item>
+        </article>
+      </md-list>
+      <md-divider></md-divider>
+      <aside>
+        <md-card flex="80" >
+          <md-card-header>
+            <md-card-title>
+              <md-card-title-text>
+                <span class="md-headline">Tarjeta</span>
+                <span class="md-subhead">descripción no muy larga para que no choque</span>
+              </md-card-title-text>
+              <md-card-title-media>
+                <md-icon>more_vert</md-icon>
+              </md-card-title-media>
+            </md-card-title>
+          </md-card-header>
+          <md-card-actions layout="row" layout-align="start center">
+            <md-button>
+              <md-icon>print</md-icon>
+            </md-button>
+            <md-button>
+              <md-icon>delete</md-icon>
+            </md-button>
+          </md-card-actions>
+          <md-card-content layout="column" layout-align="start start">
+            <p>Contenido de la tarjeta </p>
+            <p>Puede contener muchas más cosas que párrafos</p>
+            <p>Por ejemplo formularios</p>
+          </md-card-content>
+          <md-card-actions layout="row" layout-align="end center">
+            <md-button>Acción 1</md-button>
+            <md-button>Acción 2</md-button>
+          </md-card-actions>
+        </md-card>
+      </aside>
+    </section>
+  </md-content>
+  <md-button class="md-fab md-fab-bottom-right ">
+    <md-icon>add</md-icon>
+  </md-button>
+</body>
+
+</html>
