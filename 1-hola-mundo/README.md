@@ -3,9 +3,23 @@
 ## npm
 
 ```
+apt-get node
+
 npm init
+ package.json
 
 npm install jspm -g
+
+jspm init
+  *package.json ++jspm
+  config.js
+
+jspm install libreria=npm:libreria@1.4.5
+  *package.json ++jspm ++dependecies
+  *config.js ++map
+
+jspm install
+
 ```
 
 ## jspm
