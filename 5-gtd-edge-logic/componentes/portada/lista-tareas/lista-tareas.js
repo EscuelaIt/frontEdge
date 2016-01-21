@@ -1,17 +1,20 @@
 import * as angular from 'angular'
 import * as angularMaterial from 'angular-material'
-import tarea from 'componentes/portada/lista-tareas/tarea/tarea'
-//import filaTarea from 'componentes/portada/lista-tareas/fila-tarea/fila-tarea'
+import filaTarea from 'componentes/portada/lista-tareas/fila-tarea/fila-tarea'
+
+import servicioTareas from 'servicioTareas'
 
 const raiz ="./componentes/portada/"
 const nombreComponente = 'listaTareas'
 const nombreFichero = 'lista-tareas'
 
 
-angular.module(nombreComponente, ['ngMaterial', tarea])
-//angular.module(nombreComponente, ['ngMaterial', tarea, filaTarea])
+angular.module(nombreComponente, ['ngMaterial', filaTarea, servicioTareas])
     .component(nombreComponente, {
-        templateUrl: `${raiz}${nombreFichero}/${nombreFichero}.html`
+        templateUrl: `${raiz}${nombreFichero}/${nombreFichero}.html`,
+        controller : function(servicioTareas){
+            this.tareas = servicioTareas.tareas
+        }
     })
 
 

@@ -1,20 +1,12 @@
 <md-list>
-  <md-list-item flex="80">
-    <md-icon>done</md-icon>
-    <p> Texto de una cosa hecha</p>
+  <md-list-item ng-repeat="tarea in $ctrl.tareas | orderBy:'-id'" flex="80">
+    <md-icon>{{tarea.estado}}</md-icon>
+    <p> {{tarea.texto}}</p>
     <md-switch class="md-secondary"></md-switch>
   </md-list-item>
-
-  <article flex="80">
-    <md-list-item>
-      <md-icon>alarm</md-icon>
-      <p> Texto de una cosa pendiente</p>
-      <md-switch class="md-secondary"></md-switch>
-    </md-list-item>
-  </article>
   
-  <tarea></tarea>
+  <md-divider></md-divider>
   
-  <fila-tarea></fila-tarea>
+  <fila-tarea ng-repeat="tarea in $ctrl.tareas | orderBy:'-id'" tarea="tarea"></fila-tarea>
   
 </md-list>

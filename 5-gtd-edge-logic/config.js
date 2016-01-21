@@ -14,13 +14,13 @@ System.config({
   },
 
   map: {
-    "angular": "npm:angular@1.5.0-rc.0",
-    "angular-animate": "npm:angular-animate@1.5.0-rc.0",
-    "angular-aria": "npm:angular-aria@1.5.0-rc.0",
+    "angular": "npm:angular@1.5.0-rc.1",
+    "angular-animate": "npm:angular-animate@1.5.0-rc.1",
+    "angular-aria": "npm:angular-aria@1.5.0-rc.1",
     "angular-material": "npm:angular-material@1.0.2",
     "angular-ui-router": "npm:angular-ui-router@1.0.0-alpha0",
-    "babel": "npm:babel-core@5.8.34",
-    "babel-runtime": "npm:babel-runtime@5.8.34",
+    "babel": "npm:babel-core@5.8.35",
+    "babel-runtime": "npm:babel-runtime@5.8.35",
     "core-js": "npm:core-js@1.2.6",
     "github:angular/bower-angular-animate@1.4.8": {
       "angular": "github:angular/bower-angular@1.4.8"
@@ -40,7 +40,7 @@ System.config({
     "github:jspm/nodelibs-util@0.1.0": {
       "util": "npm:util@0.10.3"
     },
-    "npm:angular-animate@1.5.0-rc.0": {
+    "npm:angular-animate@1.5.0-rc.1": {
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
     "npm:angular-material@1.0.2": {
@@ -56,13 +56,13 @@ System.config({
     "npm:angular@1.4.8": {
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
-    "npm:angular@1.5.0-rc.0": {
+    "npm:angular@1.5.0-rc.1": {
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
     "npm:assert@1.3.0": {
       "util": "npm:util@0.10.3"
     },
-    "npm:babel-runtime@5.8.34": {
+    "npm:babel-runtime@5.8.35": {
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
     "npm:core-js@1.2.6": {

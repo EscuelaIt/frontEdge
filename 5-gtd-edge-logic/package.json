@@ -1,7 +1,7 @@
 {
-  "name": "2-gtd-edge-seed",
+  "name": "5-gtd-edge-logic",
   "version": "1.0.0",
-  "description": "Getting Things Done Seed",
+  "description": "Getting Things Done Logic",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,9 +10,9 @@
   "license": "ISC",
   "jspm": {
     "dependencies": {
-      "angular": "npm:angular@1.5.0-rc.0",
-      "angular-animate": "npm:angular-animate@1.5.0-rc.0",
-      "angular-aria": "npm:angular-aria@1.5.0-rc.0",
+      "angular": "npm:angular@1.5.0-rc.1",
+      "angular-animate": "npm:angular-animate@1.5.0-rc.1",
+      "angular-aria": "npm:angular-aria@1.5.0-rc.1",
       "angular-material": "npm:angular-material@^1.0.2",
       "angular-ui-router": "npm:angular-ui-router@^1.0.0-alpha0"
     },
