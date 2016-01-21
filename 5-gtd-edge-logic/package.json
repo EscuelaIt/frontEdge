@@ -1,0 +1,25 @@
+{
+  "name": "2-gtd-edge-seed",
+  "version": "1.0.0",
+  "description": "Getting Things Done Seed",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "albertobasalo@agorabinaria.com",
+  "license": "ISC",
+  "jspm": {
+    "dependencies": {
+      "angular": "npm:angular@1.5.0-rc.0",
+      "angular-animate": "npm:angular-animate@1.5.0-rc.0",
+      "angular-aria": "npm:angular-aria@1.5.0-rc.0",
+      "angular-material": "npm:angular-material@^1.0.2",
+      "angular-ui-router": "npm:angular-ui-router@^1.0.0-alpha0"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}
