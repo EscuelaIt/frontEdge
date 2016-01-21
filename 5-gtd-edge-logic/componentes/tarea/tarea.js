@@ -16,10 +16,15 @@ let configurarEstado = ($stateProvider) => {
 angular.module(nombreComponente, ['ngMaterial', 'ui.router'])
   .component(nombreComponente, {
     templateUrl: `${raiz}${nombreComponente}/${nombreComponente}.html`,
-    controller: function (servicioTareas, $stateParams) {
+    controller: function (servicioTareas, $stateParams, $state, $mdToast) {
       this.tareaId = $stateParams.tareaId
       this.tarea = servicioTareas.obtenerTarea(this.tareaId)
-      this.guardar = servicioTareas.guardarTarea(this.tarea) 
+      this.guardar = servicioTareas.guardarTarea(this.tarea)
+      this.borrar = () => {
+        servicioTareas.borrarTarea(this.tareaId) 
+        $mdToast.show($mdToast.simple().content("Tarea borrada").hideDelay(3000))
+        $state.go('portada')
+      }
     }
   })
   .config(configurarEstado)
