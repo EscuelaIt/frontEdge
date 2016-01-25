@@ -11,7 +11,6 @@ import tarea from 'componentes/tarea/tarea'
 import configuracion from 'componentes/configuracion/configuracion'
 import navegacion from 'componentes/navegacion/navegacion'
 
-
 const nombreApp = 'frontEdge'
 
 angular.module(nombreApp, ['ngMaterial', 'ui.router', base, portada, tarea, configuracion, navegacion])

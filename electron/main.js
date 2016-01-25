@@ -13,7 +13,6 @@ app.on('ready', ()=> {
         width: 800,
         height: 600
     });
-    var webContents = mainWindow.webContents;
     mainWindow.loadURL('http://localhost:3000');
     mainWindow.on('closed', ()=>  mainWindow = null);
 });

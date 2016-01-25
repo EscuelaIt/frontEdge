@@ -3,7 +3,7 @@ import * as angularMaterial from 'angular-material'
 import * as angularUiRouter from 'angular-ui-router'
 import tareaCtrl from 'componentes/tarea/tarea-ctrl'
 
-const raiz = "./componentes/"
+const raiz = './componentes/'
 const nombreComponente = 'tarea'
 
 let configurarEstado = ($stateProvider) => {
