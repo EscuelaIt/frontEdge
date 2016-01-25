@@ -1,8 +1,8 @@
-let listaTareasCtrl = function (servicioTareas) {
+let listaTareasCtrl1 = function (servicioTareas) {
   this.tareas = servicioTareas.tareas
 }
 
-class listaTareasCtrl2 {
+class listaTareasCtrl {
   constructor(servicioTareas) {
     this.tareas = servicioTareas.tareas
   }
