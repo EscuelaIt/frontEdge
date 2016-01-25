@@ -2,6 +2,8 @@ import * as angular from 'angular'
 import * as angularMaterial from 'angular-material'
 import * as angularUiRouter from 'angular-ui-router'
 
+import 'jspm_packages/npm/angular-material@1.0.2/angular-material.css!';
+
 import base from 'componentes/base/base'
 
 import portada from 'componentes/portada/portada'

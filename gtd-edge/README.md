@@ -30,12 +30,17 @@ jspm bundle-sfx main.js app.js
 // app.js autocontiene un microcargador
 
 
+css
+
 jspm install css
+jspm install clean-css
 import 'jspm_packages/npm/angular-material@1.0.2/angular-material.css!';
 
 
 sudo npm install ng-annotate -g  -save-dev
 
 jspm bundle-sfx main.js app.js -m
+
+
 
 ```

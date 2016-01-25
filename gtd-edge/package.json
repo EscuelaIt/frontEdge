@@ -14,11 +14,13 @@
       "angular-animate": "npm:angular-animate@1.5.0-rc.1",
       "angular-aria": "npm:angular-aria@1.5.0-rc.1",
       "angular-material": "npm:angular-material@^1.0.2",
-      "angular-ui-router": "npm:angular-ui-router@^1.0.0-alpha0"
+      "angular-ui-router": "npm:angular-ui-router@^1.0.0-alpha0",
+      "css": "github:systemjs/plugin-css@^0.1.20"
     },
     "devDependencies": {
       "babel": "npm:babel-core@^5.8.24",
       "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "clean-css": "npm:clean-css@^3.4.9",
       "core-js": "npm:core-js@^1.1.4"
     }
   },
