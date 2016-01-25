@@ -1,7 +1,7 @@
 import * as angular from 'angular'
-import * as angularMaterial from 'angular-material'
+import 'angular-material'
 
-const raiz ="./componentes/base/"
+const raiz ='./componentes/base/'
 const nombreComponente = 'anuncio'
 
 angular.module(nombreComponente, ['ngMaterial'])

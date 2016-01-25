@@ -1,6 +1,6 @@
 import * as angular from 'angular'
-import * as angularMaterial from 'angular-material'
-import * as angularUiRouter from 'angular-ui-router'
+import 'angular-material'
+import 'angular-ui-router'
 
 import 'jspm_packages/npm/angular-material@1.0.2/angular-material.css!';
 
