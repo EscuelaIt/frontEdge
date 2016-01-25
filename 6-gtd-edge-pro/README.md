@@ -2,31 +2,35 @@
 
 ## jspm
 ``` 
-jspm install angular-ui-router=npm:angular-ui-router
+jspm update
 
 ```
 
 
-Crear carpetas para agrupar componentes
-base
-  fab
-  sidebar
-  toolbar
-  
-+portada
-  lista-tareas
-    fila-tarea
-+configuracion
-+tarea
+transclusion multi-slot : directiva anuncio en configuracion y navegacion
+clases ES6 en los controladores de lista-tareas y tarea
 
 
-Navegación
-portada: desde el botón icono
-tarea: desde el fab
-configuracion: desde el sidenav
+paso a producción
+http://jspm.io/docs/production-workflows.html
 
-Definir estados por componentes
-ruta raiz
-portada componente con template
 
-**forzar problema nombre componenete unico (tarea vs fila-tarea)**
+``` 
+jspm bundle main build.js
+// <script src="build.js"></script>
+
+jspm bundle main build.js --inject
+// sin tocar html
+
+jspm unbundle
+// para volver a ficheros
+
+
+jspm bundle-sfx main.js app.js
+// app.js autocontiene un microcargador
+
+
+jspm install css
+import 'jspm_packages/npm/angular-material@1.0.2/angular-material.css!';
+
+```
