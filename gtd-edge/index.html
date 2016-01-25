@@ -1,0 +1,35 @@
+<html lang="es">
+
+<head>
+<title>GTD Edge pro</title>
+  <meta name="description" content="Paso a producción Getting Thins Done ">
+  <meta name="keywords" content="ES6, JSPM, AngularJS1.5 , Material Design">
+  <meta name="author" content="albertobasalo@agorabinaria.com">
+  <meta charset="utf-8" />
+  <!--<script src="jspm_packages/system.js"></script>
+  <script src="config.js"></script>
+  <script src="build.js"></script>
+  <script>
+		System.import('main.js');
+  </script>-->
+  
+  <script src="app.js"></script>
+  
+  <link href="jspm_packages/npm/angular-material@1.0.2/angular-material.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body layout="column" layout-fill>
+  <toolbar></toolbar>
+  <md-content layout="row" flex>
+    <nav>
+      <sidenav></sidenav>
+    </nav>
+    <section layout="column" flex ui-view>
+      
+    </section>
+  </md-content>
+  <fab></fab>
+</body>
+
+</html>

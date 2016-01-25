@@ -1,0 +1,43 @@
+<md-card flex="80">
+  <md-card-header>
+    <md-card-title>
+      <md-card-title-text>
+        <span class="md-headline">{{$ctrl.tarea.titulo}}</span>
+        <span class="md-subhead">{{$ctrl.tarea.descripcion}}</span>
+      </md-card-title-text>
+      <md-card-title-media>
+        <md-icon>{{$ctrl.tarea.estado}}</md-icon>
+      </md-card-title-media>
+    </md-card-title>
+  </md-card-header>
+  <md-card-actions layout="row" layout-align="start center">
+    <md-button>
+      <md-icon ng-click="$ctrl.guardar()">save</md-icon>
+    </md-button>
+    <md-button>
+      <md-icon ng-click="$ctrl.borrar()">delete</md-icon>
+    </md-button>
+  </md-card-actions>
+  <md-card-content layout="column" layout-align="start start">
+    <form>
+				<md-input-container>
+					<label>Título:</label>
+					<input ng-model="$ctrl.tarea.titulo" type="text">
+				</md-input-container>
+        <br>
+				<md-input-container flex>
+					<label>Descripción:</label>
+					<textarea ng-model="$ctrl.tarea.descripcion" columns="1"></textarea>
+				</md-input-container>
+        <br>
+				<md-input-container>
+					<label>Due Date:</label>
+					<input ng-model="$ctrl.tarea.fecha" type="date">
+				</md-input-container>
+			</form>
+  </md-card-content>
+  <md-card-actions layout="row" layout-align="end center">
+    <md-button ui-sref="portada">Cancelar</md-button>
+    <md-button ng-click="$ctrl.guardar()" class="md-primary">Guardar</md-button>
+  </md-card-actions>
+</md-card>
