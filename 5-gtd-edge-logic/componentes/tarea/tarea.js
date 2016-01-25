@@ -26,6 +26,9 @@ angular.module(nombreComponente, ['ngMaterial', 'ui.router'])
         $state.go('portada')
       }
     }
+    
+    
+    
   })
   .config(configurarEstado)
 
